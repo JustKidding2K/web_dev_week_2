@@ -1,0 +1,93 @@
+.header {
+		background-color: lightgreen;
+		margin: 0px;
+		text-align: center;
+		color: white;
+		padding: 100px;
+	}
+body{
+	margin-bottom:50px;
+	
+}
+
+.header h1 {
+		font-size: 70px;
+	}
+	
+.MemberHeader {
+		background-color: GrayText;
+		margin: 0px;
+		text-align: center;
+		color: white;
+		padding: 200px;
+	}
+	
+.MenberHeader h1 {
+	font-size: 70
+	}
+	
+img.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 600px;
+	}
+
+img.center {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	}
+
+.header h1 {
+		font-size: 40px;
+	}
+
+.navbar {
+		background-color: black;
+		color: white;
+		text-align: center;
+	}
+			
+.navbar a {
+		float: center;
+		color: white;
+		padding: 15px 20px;
+		display: block;
+		text-decoration: none;
+	}
+
+.navbar a:hover {
+		color: black;
+		background-color: white;
+	}
+
+.member {
+		display: flex;
+		flex-flow: row warp;
+	}
+
+
+.mem_img {
+		display: block;
+		padding 200px;
+	}
+	
+.info {
+		font-family:"Times New Roman", Times, serif;
+		font-size: 20px;
+		margin: auto;
+		text-align: left;
+		display: block;
+	}
+
+
+a {
+	color:blue
+	
+}
+@media screen and (max-width: 600px){
+		.member {
+			flex-direction: column;
+		}
+	}
